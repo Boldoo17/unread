@@ -40,13 +40,13 @@ header {
   width: 50%;
 }
 .left {
-  background-image: url("zoos.png");
+  background-image: url("news.jpeg");
   height: 446.4px;
   max-width: 446.4px;
   border-radius: 20px;
   background-size: 150%;
   background-position: center;
-  transition: all 2s ease;
+  transition: all 0.5s ease;
   cursor: pointer;
 }
 .left:hover {
@@ -210,7 +210,7 @@ i {
   height: 36px;
   max-width: 36px;
   border-radius: 50px;
-  background-image: url();
+  background-image: url(tushig.jpeg);
   background-size: 100%;
 }
 .pros {
@@ -374,7 +374,7 @@ i {
 
 .packcards {
   display: flex;
-  max-width: 90vw;
+  max-width: 1900px;
   margin-left: auto;
   margin-right: auto;
   justify-content: space-evenly;
