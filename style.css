@@ -1,7 +1,7 @@
 * {
   margin: 0;
   padding: 0;
-  font-family: "SF display", sans-serif;
+  font-family: "Inter", sans-serif;
 }
 header {
   width: 85vw;
@@ -223,6 +223,10 @@ i {
 .ner {
   color: rgb(255, 255, 255, 0.6);
 }
+
+.ner:hover {
+  color: #ffffff;
+}
 .onsar {
   color: #ffffff;
 }
@@ -247,38 +251,80 @@ i {
   border-radius: 25px;
   background-color: rgb(255, 255, 255, 0.6);
 }
+.scale {
+  transition: all 0.5s ease;
+}
+.scale:hover {
+  scale: 1.1;
+}
+
 .first {
   width: 244px;
   height: 360px;
-  background-image: url(goyzaluu.png);
-  border-radius: 9px;
+  background-image: linear-gradient(
+      180deg,
+      rgba(0, 0, 0, 0.3) 0%,
+      rgba(0, 0, 0, 0.1) 40%,
+      rgba(0, 0, 0, 0) 50%,
+      rgba(0, 0, 0, 0.6) 100%
+    ),
+    url(goyzaluu.png);
   background-position: center;
+  border-radius: 9px;
 }
 .second {
   width: 244px;
-  min-height: 360px;
-  background-image: url(lan.png);
+  height: 360px;
+  background-image: linear-gradient(
+      180deg,
+      rgba(0, 0, 0, 0.3) 0%,
+      rgba(0, 0, 0, 0.1) 40%,
+      rgba(0, 0, 0, 0) 50%,
+      rgba(0, 0, 0, 0.6) 100%
+    ),
+    url(lan.png);
   background-position: center;
   border-radius: 9px;
 }
 .third {
   width: 244px;
   height: 360px;
-  background-image: url(shil.png);
+  background-image: linear-gradient(
+      180deg,
+      rgba(0, 0, 0, 0.3) 0%,
+      rgba(0, 0, 0, 0.1) 40%,
+      rgba(0, 0, 0, 0) 50%,
+      rgba(0, 0, 0, 0.6) 100%
+    ),
+    url(shil.png);
   background-position: center;
   border-radius: 9px;
 }
 .fourth {
   width: 244px;
   height: 360px;
-  background-image: url(sonin.png);
+  background-image: linear-gradient(
+      180deg,
+      rgba(0, 0, 0, 0.3) 0%,
+      rgba(0, 0, 0, 0.1) 40%,
+      rgba(0, 0, 0, 0) 50%,
+      rgba(0, 0, 0, 0.6) 100%
+    ),
+    url(sonin.png);
   background-position: center;
   border-radius: 9px;
 }
 .fifth {
   width: 244px;
   height: 360px;
-  background-image: url(apple.png);
+  background-image: linear-gradient(
+      180deg,
+      rgba(0, 0, 0, 0.3) 0%,
+      rgba(0, 0, 0, 0.1) 40%,
+      rgba(0, 0, 0, 0) 50%,
+      rgba(0, 0, 0, 0.6) 100%
+    ),
+    url(apple.png);
   background-position: center;
   border-radius: 9px;
 }
@@ -286,7 +332,14 @@ i {
 .sixth {
   width: 244px;
   height: 360px;
-  background-image: url(sixth.jpeg);
+  background-image: linear-gradient(
+      180deg,
+      rgba(0, 0, 0, 0.3) 0%,
+      rgba(0, 0, 0, 0.1) 40%,
+      rgba(0, 0, 0, 0) 50%,
+      rgba(0, 0, 0, 0.6) 100%
+    ),
+    url(sixth.jpeg);
   background-position: center;
   border-radius: 9px;
 }
@@ -294,7 +347,14 @@ i {
 .seventh {
   width: 244px;
   height: 360px;
-  background-image: url(seventh.jpeg);
+  background-image: linear-gradient(
+      180deg,
+      rgba(0, 0, 0, 0.3) 0%,
+      rgba(0, 0, 0, 0.1) 40%,
+      rgba(0, 0, 0, 0) 50%,
+      rgba(0, 0, 0, 0.6) 100%
+    ),
+    url(seventh.jpeg);
   background-position: center;
   border-radius: 9px;
 }
@@ -361,7 +421,7 @@ i {
 .blue1 {
   color: #ffffff;
   background-color: #0077b5;
-  width: 180px;
+  width: 190px;
   border-radius: 15px;
   display: flex;
   justify-content: center;
@@ -378,4 +438,179 @@ i {
   margin-left: auto;
   margin-right: auto;
   justify-content: space-evenly;
+}
+
+.part3 {
+  width: 100vw;
+  background-color: #fafafa;
+  display: flex;
+  margin-top: -116px;
+  flex-direction: column;
+}
+.pro1 {
+  height: 44px;
+  width: 44px;
+  border-radius: 50px;
+  background-image: url(purev.jpeg);
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+
+.pro2 {
+  height: 44px;
+  width: 44px;
+  border-radius: 50px;
+  background-image: url(undral.jpeg);
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+
+.pro3 {
+  height: 44px;
+  width: 44px;
+  border-radius: 50px;
+  background-image: url(gerel.jpeg);
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+
+.pro4 {
+  height: 44px;
+  width: 44px;
+  border-radius: 50px;
+  background-image: url(gerel.jpeg);
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+
+.pro5 {
+  height: 44px;
+  width: 44px;
+  border-radius: 50px;
+  background-image: url(tushig.jpeg);
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+
+.pros1 {
+  display: flex;
+  min-width: 500px;
+  gap: 8px;
+}
+.pros2 {
+  display: flex;
+  gap: 8px;
+  flex-direction: row-reverse;
+}
+
+.ners .ner1 p {
+  color: #000000;
+}
+
+.ners .onsar {
+  color: #888888;
+}
+.bigcard {
+  width: 739px;
+  height: 183px;
+  margin-top: 10px;
+  background-color: #ffffff;
+  border-radius: 0 27px 27px 27px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 120px;
+}
+
+.article {
+  width: 739px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-top: 30px;
+}
+.article-right {
+  align-self: flex-end;
+  align-items: flex-end;
+}
+.bigcard2 {
+  width: 739px;
+  height: 183px;
+  margin-top: 10px;
+  background-color: #ffffff;
+  border-radius: 27px 0 27px 27px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 120px;
+}
+.wholebody {
+  width: 50vw;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 200px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.le {
+  display: flex;
+  width: 60%;
+  height: 40%;
+  flex-direction: column;
+}
+.etseg {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.tusdaa {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+.etseg p {
+  color: #0078f6;
+  font-size: 12px;
+  font-weight: 700;
+}
+.etseg h5 {
+  font-size: 21px;
+  color: #000000;
+  margin-left: 10px;
+}
+.ri {
+  background-image: url(sisi.jpeg);
+  width: 135px;
+  height: 135px;
+  background-size: 100%;
+  border-radius: 40px;
+}
+.ri1 {
+  background-image: url(sisi1.jpeg);
+  width: 135px;
+  height: 135px;
+  background-size: 100%;
+  border-radius: 40px;
+}
+.ri2 {
+  background-image: url(sisi2.jpeg);
+  width: 135px;
+  height: 135px;
+  background-size: 100%;
+  border-radius: 40px;
+}
+.ri3 {
+  background-image: url(sisi3.jpeg);
+  width: 135px;
+  height: 135px;
+  background-size: 100%;
+  border-radius: 40px;
+}
+.ri4 {
+  background-image: url(sisi4.png);
+  width: 135px;
+  height: 135px;
+  background-size: 100%;
+  border-radius: 40px;
 }
