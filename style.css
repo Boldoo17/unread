@@ -683,7 +683,7 @@ i {
   color: #0078f6;
   cursor: pointer;
 }
-.unreadnews {
+.news {
   display: grid;
   grid-template-columns: repeat(4, 264px);
   grid-template-rows: 271px 90px 234px;
@@ -693,17 +693,21 @@ i {
 
 .photo1 {
   background-image: url(photo1.png);
-  background-position: 100%;
   grid-column: 1/3;
   grid-row: 1/3;
-  display: flex;
   align-items: end;
   border-radius: 18px;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: end;
+  transition: all 0.5s ease;
 }
 .photo2 {
   border-radius: 18px;
   background-image: url(photo2.jpeg);
-  background-position: 100%;
+  background-position: center;
+  background-size: cover;
   grid-column: 3/4;
   grid-row: 1/2;
   display: flex;
@@ -712,49 +716,54 @@ i {
 .photo3 {
   border-radius: 18px;
   background-image: url(photo3.jpeg);
-  background-position: 100%;
+  background-position: center;
   grid-column: 4/5;
   grid-row: 1/2;
   display: flex;
   align-items: end;
+  background-size: cover;
 }
 .photo4 {
   border-radius: 18px;
   background-image: url(photo4.jpeg);
-  background-position: 100%;
+  background-position: center;
   grid-column: 1/2;
   grid-row: 3/4;
   display: flex;
   align-items: end;
+  background-size: cover;
 }
 .photo5 {
   border-radius: 18px;
   background-image: url(photo5.jpeg);
-  background-position: 100%;
+  background-position: center;
   grid-column: 2/3;
   grid-row: 3/4;
   display: flex;
   align-items: end;
+  background-size: cover;
 }
 .photo6 {
   border-radius: 18px;
   background-image: url(photo6.jpeg);
-  background-position: 100%;
+  background-position: center;
   grid-column: 3/4;
   grid-row: 2/4;
   display: flex;
   align-items: end;
+  background-size: cover;
 }
 .photo7 {
   border-radius: 18px;
   background-image: url(photo2.jpeg);
-  background-position: 100%;
+  background-position: center;
   grid-column: 4/5;
   grid-row: 2/4;
   display: flex;
   align-items: end;
+  background-size: cover;
 }
-.unreadbok {
+.unread-bok {
   width: 100%;
   height: 30%;
   background: rgba(0, 0, 0, 0.2);
@@ -762,14 +771,14 @@ i {
   border-bottom-right-radius: 18px;
 }
 
-.unreadbokL {
+.unread-bok1 {
   width: 100%;
   height: 20%;
   background: rgba(0, 0, 0, 0.2);
   border-bottom-left-radius: 18px;
   border-bottom-right-radius: 18px;
 }
-.unr-news {
+.news {
   display: grid;
   grid-template-columns: repeat(4, 264px);
   grid-template-rows: 271px 90px 234px;
@@ -781,18 +790,20 @@ i {
   grid-row: 1/3;
   border-radius: 18px;
   background-image: url(photo8.jpeg);
-  background-position: 100%;
+  background-position: center;
   display: flex;
   align-items: end;
+  background-size: cover;
 }
 .photo9 {
   grid-column: 3/4;
   grid-row: 1/2;
   border-radius: 18px;
   background-image: url(photo9.jpeg);
-  background-position: 100%;
+  background-position: center;
   display: flex;
   align-items: end;
+  background-size: cover;
 }
 .photo10 {
   grid-column: 4/5;
@@ -802,40 +813,152 @@ i {
   background-position: 100%;
   display: flex;
   align-items: end;
+  background-size: cover;
 }
 .photo11 {
   grid-column: 1/2;
   grid-row: 3/4;
   border-radius: 18px;
   background-image: url(photo11.jpeg);
-  background-position: 100%;
+  background-position: center;
   display: flex;
   align-items: end;
+  background-size: cover;
 }
 .photo12 {
   grid-column: 2/3;
   grid-row: 3/4;
   border-radius: 18px;
   background-image: url(photo12.jpeg);
-  background-position: 100%;
+  background-position: center;
   display: flex;
   align-items: end;
+  background-size: cover;
 }
 .photo13 {
   grid-column: 3/4;
   grid-row: 2/4;
   border-radius: 18px;
   background-image: url(photo13.jpeg);
-  background-position: 100%;
+  background-position: center;
   display: flex;
   align-items: end;
+  background-size: cover;
 }
 .photo14 {
   grid-column: 4/5;
   grid-row: 2/4;
   border-radius: 18px;
   background-image: url(photo14.jpeg);
-  background-position: 100%;
+  background-position: center;
   display: flex;
   align-items: end;
+  background-size: cover;
+}
+.part4 {
+  width: 100vw;
+  background-color: #fafafa;
+  margin-top: -200px;
+  border-bottom-left-radius: 36px;
+  border-bottom-right-radius: 36px;
+  z-index: 0;
+}
+
+.news > div {
+  transition: all 0.5s ease;
+}
+
+.news > div:hover {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5), 0 6px 20px 0 rgba(0, 0, 0, 0.3);
+  transform: translate(0, -10px);
+  cursor: pointer;
+}
+.bottom-title {
+  color: rgb(255, 255, 255, 0.5);
+  font-size: 11px;
+  padding-left: 20px;
+  margin-top: 10px;
+}
+.bottom-body {
+  font-size: 15.8px;
+  color: #ffffff;
+  padding-left: 20px;
+  width: 240px;
+  font-weight: 700;
+}
+
+.bottom-body1 {
+  width: 336px;
+}
+.time {
+  background: #979797;
+  border-radius: 7px;
+  font-size: 11px;
+  color: #ffffff;
+  padding: 6px 12px;
+  position: absolute;
+  right: 35px;
+  bottom: 66px;
+}
+.time1 {
+  background: #979797;
+  border-radius: 7px;
+  font-size: 11px;
+  color: #ffffff;
+  padding: 6px 12px;
+  position: absolute;
+  right: 25px;
+  bottom: 69px;
+}
+.time2 {
+  background: #979797;
+  border-radius: 7px;
+  font-size: 11px;
+  color: #ffffff;
+  padding: 6px 12px;
+  position: absolute;
+  right: 15px;
+  bottom: 58px;
+}
+.time3 {
+  background: #979797;
+  border-radius: 7px;
+  font-size: 11px;
+  color: #ffffff;
+  padding: 6px 12px;
+  position: absolute;
+  right: 15px;
+  bottom: 58px;
+}
+
+footer {
+  background-color: #000000;
+  width: 100vw;
+  margin-top: -30px;
+  position: absolute;
+  z-index: -1;
+}
+.footer-space {
+  width: 70vw;
+  margin-left: auto;
+  margin-right: auto;
+  display: grid;
+  grid-template-columns: 30vw, 50vw;
+  grid-row: 1000px 100px;
+}
+.footer-left {
+  width: 30vw;
+  padding-top: 50px;
+  display: grid;
+  grid-template-columns: repeat(2, 144px);
+  grid-template-rows: repeat(5, 90px);
+  gap: 20px;
+}
+.footer-right {
+  width: 40vw;
+  height: 600px;
+  background-color: #ffffff;
+  grid-column: 2/3;
+  grid-row: 1/2;
+  padding-top: 50px;
 }
